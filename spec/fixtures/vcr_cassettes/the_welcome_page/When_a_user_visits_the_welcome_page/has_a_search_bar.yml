@@ -1,0 +1,107 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants/find_all?name=ill
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"8b6f2b12821ff28c4b3428cec72dd493"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f97a243b-560b-441f-b0f6-02c111bef28c
+      X-Runtime:
+      - '0.097157'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.01, sql.active_record;dur=8.28, instantiation.active_record;dur=1.39,
+        process_action.action_controller;dur=19.89
+      Content-Length:
+      - '370'
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"28","type":"merchant","attributes":{"name":"Schiller,
+        Barrows and Parker"}},{"id":"13","type":"merchant","attributes":{"name":"Tillman
+        Group"}},{"id":"5","type":"merchant","attributes":{"name":"Williamson Group"}},{"id":"6","type":"merchant","attributes":{"name":"Williamson
+        Group"}},{"id":"3","type":"merchant","attributes":{"name":"Willms and Sons"}}]}'
+  recorded_at: Thu, 26 Oct 2023 22:05:33 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants/find_all?name=ill
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"8b6f2b12821ff28c4b3428cec72dd493"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ee070dc7-fd8d-4e14-a2d5-b2ae8a3b6ebb
+      X-Runtime:
+      - '0.014182'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.00, sql.active_record;dur=0.27, instantiation.active_record;dur=0.04,
+        process_action.action_controller;dur=8.59
+      Content-Length:
+      - '370'
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"28","type":"merchant","attributes":{"name":"Schiller,
+        Barrows and Parker"}},{"id":"13","type":"merchant","attributes":{"name":"Tillman
+        Group"}},{"id":"5","type":"merchant","attributes":{"name":"Williamson Group"}},{"id":"6","type":"merchant","attributes":{"name":"Williamson
+        Group"}},{"id":"3","type":"merchant","attributes":{"name":"Willms and Sons"}}]}'
+  recorded_at: Thu, 26 Oct 2023 22:05:33 GMT
+recorded_with: VCR 6.2.0

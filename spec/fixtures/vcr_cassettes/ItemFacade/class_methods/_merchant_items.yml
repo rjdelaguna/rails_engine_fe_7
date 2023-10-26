@@ -1,0 +1,127 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants/3/items
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"ab6ba51e3e6209a54a62a67de1406660"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a7f023c4-a340-4d3c-bfce-6ea114f1aa36
+      X-Runtime:
+      - '0.115223'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.01, sql.active_record;dur=24.79,
+        instantiation.active_record;dur=1.48, process_action.action_controller;dur=59.61
+      Content-Length:
+      - '7279'
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"54","type":"item","attributes":{"name":"Item Enim Error","description":"Odio
+        inventore quis quia nesciunt. Libero id ipsam et. Perspiciatis porro vero
+        quia aut aperiam. Quaerat rerum et sit earum ut tempore illum.","unit_price":775.96,"merchant_id":3}},{"id":"55","type":"item","attributes":{"name":"Item
+        Delectus Dolorem","description":"Et et odit sunt maxime facilis. Tenetur incidunt
+        hic molestiae sequi tempore. Officia repellendus sit in tempore. Sit quam
+        voluptatum qui. Labore voluptate ut perferendis suscipit ut rerum veritatis.","unit_price":74.55,"merchant_id":3}},{"id":"56","type":"item","attributes":{"name":"Item
+        Iusto Atque","description":"Voluptas repellat voluptas similique incidunt
+        optio quibusdam. Sint quos cupiditate illo. Voluptates dolores est recusandae
+        ex laborum est quasi. Voluptates voluptatem quis deleniti. Velit laboriosam
+        ea.","unit_price":538.98,"merchant_id":3}},{"id":"57","type":"item","attributes":{"name":"Item
+        Et Reiciendis","description":"In qui eveniet itaque et et vel. Iusto sunt
+        facere ex et enim porro expedita. At dolore ab perferendis ex. Dolor debitis
+        illum nulla.","unit_price":415.48,"merchant_id":3}},{"id":"58","type":"item","attributes":{"name":"Item
+        Aperiam Voluptatibus","description":"Quasi pariatur et dolor expedita assumenda
+        animi. Voluptas natus numquam. Sint culpa odio. Velit ut aspernatur.","unit_price":646.88,"merchant_id":3}},{"id":"59","type":"item","attributes":{"name":"Item
+        Consequatur Eum","description":"Qui quibusdam eos. Itaque recusandae impedit
+        consequatur commodi inventore et. Et voluptates quia non omnis commodi adipisci.
+        Quasi praesentium id quibusdam nesciunt. Et nobis qui reprehenderit.","unit_price":45.08,"merchant_id":3}},{"id":"60","type":"item","attributes":{"name":"Item
+        Accusantium Assumenda","description":"Delectus et quia. Quia praesentium officia
+        recusandae temporibus. Porro suscipit perferendis enim quo.","unit_price":83.38,"merchant_id":3}},{"id":"61","type":"item","attributes":{"name":"Item
+        Quas Maiores","description":"Porro sapiente corporis deleniti accusamus autem
+        animi. Sunt molestiae sit hic illo. Molestiae eum est voluptas nostrum corporis
+        illum natus.","unit_price":261.72,"merchant_id":3}},{"id":"62","type":"item","attributes":{"name":"Item
+        Harum Molestiae","description":"Fuga modi eos iusto nisi vero omnis. Blanditiis
+        corrupti quibusdam deleniti qui. Quasi qui maiores tenetur omnis odit incidunt.
+        Omnis ut tenetur. Expedita iure maxime.","unit_price":609.45,"merchant_id":3}},{"id":"63","type":"item","attributes":{"name":"Item
+        Unde Id","description":"Voluptatum iste ad rem placeat iusto nulla. Qui dolore
+        nostrum non amet illo voluptatem ut. Sunt mollitia id quis quas modi. Vero
+        non corporis soluta eveniet voluptatem.","unit_price":540.01,"merchant_id":3}},{"id":"64","type":"item","attributes":{"name":"Item
+        Voluptates Qui","description":"Nobis quasi excepturi id dignissimos necessitatibus
+        ad vitae. Eligendi quis facere reiciendis blanditiis adipisci corporis. Nisi
+        commodi sit dignissimos quo nulla nam. Officiis ut accusamus necessitatibus
+        fugit delectus nesciunt repellat. Eum sunt optio nihil laborum incidunt vel
+        magnam.","unit_price":164.97,"merchant_id":3}},{"id":"65","type":"item","attributes":{"name":"Item
+        Aut Dolorem","description":"Quod exercitationem repellat mollitia possimus
+        rerum. Hic aliquid et eum expedita. Eligendi illum earum vero ut voluptatum
+        at ipsum. Dolorum amet aut enim dolores.","unit_price":963.77,"merchant_id":3}},{"id":"66","type":"item","attributes":{"name":"Item
+        Fuga Earum","description":"Consequuntur alias voluptatem voluptatem quis odio
+        quia accusamus. Repellat tempora quia sint. Voluptates officia omnis omnis
+        sint sapiente et cum. Aut accusantium modi delectus earum. Sunt animi ad sint.","unit_price":404.82,"merchant_id":3}},{"id":"67","type":"item","attributes":{"name":"Item
+        Est Tempore","description":"Sit et eveniet est dolor soluta nihil consequatur.
+        Voluptatem modi sapiente nam. Esse sunt cumque ea aut aut consequatur quia.","unit_price":136.49,"merchant_id":3}},{"id":"68","type":"item","attributes":{"name":"Item
+        Ducimus Error","description":"Recusandae unde quidem delectus error sit. Id
+        delectus voluptas. Nemo mollitia voluptatibus cumque cupiditate voluptatem.
+        Iure reprehenderit deleniti voluptatum et necessitatibus. Voluptas ducimus
+        nisi laboriosam.","unit_price":333.85,"merchant_id":3}},{"id":"69","type":"item","attributes":{"name":"Item
+        Voluptas Provident","description":"Eum vero laudantium reiciendis. Et neque
+        aut ut. Et iusto sunt inventore omnis possimus. Dolorem voluptatibus error
+        debitis sit sunt consequatur. Officiis fuga at ab ullam quia numquam eum.","unit_price":560.89,"merchant_id":3}},{"id":"70","type":"item","attributes":{"name":"Item
+        Dolor Dolores","description":"Inventore adipisci sapiente. Doloremque nisi
+        exercitationem. Eum optio quibusdam cumque esse velit rerum. Vel eaque vero.
+        Voluptatum deserunt est.","unit_price":37.97,"merchant_id":3}},{"id":"71","type":"item","attributes":{"name":"Item
+        Earum Asperiores","description":"Velit amet et iusto aperiam autem. Ullam
+        numquam officia molestiae consequatur. Modi rem odit laudantium unde et suscipit.
+        Unde non aut libero omnis voluptatem.","unit_price":28.96,"merchant_id":3}},{"id":"72","type":"item","attributes":{"name":"Item
+        Assumenda Impedit","description":"Voluptatem perspiciatis at inventore. Id
+        eius tempore exercitationem cupiditate odit quia. Natus perspiciatis inventore
+        dicta. Praesentium perferendis voluptatum expedita ipsa sit. Excepturi aperiam
+        doloremque explicabo dolor et ab.","unit_price":91.81,"merchant_id":3}},{"id":"73","type":"item","attributes":{"name":"Item
+        Aut Placeat","description":"Perferendis sed perspiciatis similique rerum corporis.
+        Repudiandae perspiciatis explicabo. Quos recusandae quas perferendis. Est
+        commodi ducimus perferendis voluptatem aut expedita quo.","unit_price":400.05,"merchant_id":3}},{"id":"74","type":"item","attributes":{"name":"Item
+        Occaecati Non","description":"Numquam repudiandae id commodi voluptatibus
+        deleniti exercitationem. Et quo eos esse aspernatur sapiente dolorem dicta.
+        Quia qui dolorum rem soluta. Dolores culpa vel et voluptate. Repellendus in
+        nemo quo ea autem nulla exercitationem.","unit_price":923.82,"merchant_id":3}},{"id":"76","type":"item","attributes":{"name":"Item
+        Voluptas Voluptatem","description":"Dignissimos sunt magnam qui eos velit
+        aliquam et. Atque sit rerum consequatur. Hic alias tenetur iusto fugit non.
+        Natus dicta quis porro. Laudantium possimus quasi vel autem qui sunt.","unit_price":741.83,"merchant_id":3}},{"id":"77","type":"item","attributes":{"name":"Item
+        Numquam Omnis","description":"Quia blanditiis voluptas officia eligendi voluptates
+        ut. Vel inventore eos. Voluptas est asperiores aut vitae tempore.","unit_price":648.04,"merchant_id":3}},{"id":"78","type":"item","attributes":{"name":"Item
+        Repellendus Quasi","description":"Est suscipit aut et error ab perferendis.
+        Cum officiis quia libero eaque aut dolorum. Sapiente et et quod autem dolor
+        et quis.","unit_price":47.95,"merchant_id":3}},{"id":"79","type":"item","attributes":{"name":"Item
+        Ut Iusto","description":"Vel veniam quia. Et nemo eum expedita sit. Aut id
+        ut est necessitatibus magnam.","unit_price":368.23,"merchant_id":3}}]}'
+  recorded_at: Thu, 26 Oct 2023 20:58:24 GMT
+recorded_with: VCR 6.2.0

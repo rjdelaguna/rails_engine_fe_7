@@ -67,3 +67,12 @@ group :development do
   # gem "spring"
 end
 
+group :test do
+  gem 'launchy'
+  gem 'shoulda-matchers'
+  gem 'simplecov'
+  gem 'webmock'
+  gem 'vcr'
+end
+
+gem 'faraday'

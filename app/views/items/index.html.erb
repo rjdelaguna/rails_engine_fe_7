@@ -1,0 +1,7 @@
+<h1>Items Dashboard</h1>
+
+<ul style="list-style-type:none;">
+  <% @items.each do |item| %>
+    <li><%=link_to item.name, item_path(item.id) %></li>
+  <% end %>
+</ul>

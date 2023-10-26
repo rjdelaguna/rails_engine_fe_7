@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants/find_all?name=on
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"a0a9a0e6633a8c99c6f18154636eb90b"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a63e68cf-7c45-4dd0-91b9-82a10143bfc7
+      X-Runtime:
+      - '0.061335'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.00, sql.active_record;dur=13.20,
+        instantiation.active_record;dur=0.26, process_action.action_controller;dur=21.51
+      Content-Length:
+      - '2055'
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"10","type":"merchant","attributes":{"name":"Bechtelar,
+        Jones and Stokes"}},{"id":"36","type":"merchant","attributes":{"name":"Bernhard,
+        Stanton and Funk"}},{"id":"41","type":"merchant","attributes":{"name":"Crona
+        LLC"}},{"id":"45","type":"merchant","attributes":{"name":"Dickinson-Klein"}},{"id":"24","type":"merchant","attributes":{"name":"Ferry
+        and Sons"}},{"id":"44","type":"merchant","attributes":{"name":"Gibson Group"}},{"id":"80","type":"merchant","attributes":{"name":"Jakubowski,
+        Predovic and Hudson"}},{"id":"95","type":"merchant","attributes":{"name":"Johnson-Dickinson"}},{"id":"87","type":"merchant","attributes":{"name":"Johnson-Wiza"}},{"id":"38","type":"merchant","attributes":{"name":"Johnston,
+        Gleason and O''Keefe"}},{"id":"89","type":"merchant","attributes":{"name":"Kassulke,
+        O''Hara and Quitzon"}},{"id":"2","type":"merchant","attributes":{"name":"Klein,
+        Rempel and Jones"}},{"id":"64","type":"merchant","attributes":{"name":"Koepp,
+        Waelchi and Donnelly"}},{"id":"98","type":"merchant","attributes":{"name":"Okuneva,
+        Prohaska and Rolfson"}},{"id":"11","type":"merchant","attributes":{"name":"Pollich
+        and Sons"}},{"id":"33","type":"merchant","attributes":{"name":"Quitzon and
+        Sons"}},{"id":"53","type":"merchant","attributes":{"name":"Rath, Gleason and
+        Spencer"}},{"id":"32","type":"merchant","attributes":{"name":"Rowe and Sons"}},{"id":"34","type":"merchant","attributes":{"name":"Rutherford,
+        Bogan and Leannon"}},{"id":"85","type":"merchant","attributes":{"name":"Sauer
+        and Sons"}},{"id":"20","type":"merchant","attributes":{"name":"Schulist, Wilkinson
+        and Leannon"}},{"id":"56","type":"merchant","attributes":{"name":"Sporer,
+        Christiansen and Connelly"}},{"id":"67","type":"merchant","attributes":{"name":"Torp
+        and Sons"}},{"id":"91","type":"merchant","attributes":{"name":"Weissnat, Hermiston
+        and Beer"}},{"id":"5","type":"merchant","attributes":{"name":"Williamson Group"}},{"id":"6","type":"merchant","attributes":{"name":"Williamson
+        Group"}},{"id":"3","type":"merchant","attributes":{"name":"Willms and Sons"}}]}'
+  recorded_at: Thu, 26 Oct 2023 21:11:17 GMT
+recorded_with: VCR 6.2.0
